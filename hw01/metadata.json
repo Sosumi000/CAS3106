@@ -1,0 +1,27 @@
+{
+  "student_id": "2024149049",
+  "full_name": "YU MINHYEONG",
+  "assignments": {
+    "ex01": {
+      "type": "git",
+      "file": "submit_ex01.tar.gz"
+    },
+    "ex02": {
+      "type": "git",
+      "file": "submit_ex02.tar.gz"
+    },
+    "ex03": {
+      "type": "git",
+      "file": "submit_ex03.tar.gz"
+    },
+    "ex04": {
+      "type": "container",
+      "image": "docker.io/sosumi000/ex04:latest",
+      "tests": [{"input": "input1.txt", "output": "output1.txt"},{"input": "input2.txt", "output": "output2.txt"},{"input": "input3.txt", "output": "output3.txt"}]
+    },
+    "ex05": {
+      "type": "container",
+      "image": "docker.io/sosumi000/ex05:latest"
+    }
+  }
+}
